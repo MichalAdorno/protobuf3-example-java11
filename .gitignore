@@ -37,3 +37,4 @@ release.properties
 # Gradle
 .gradle/
 gradlew.bat
+build/
