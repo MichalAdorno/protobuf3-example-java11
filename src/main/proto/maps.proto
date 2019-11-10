@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.github.michaladorno.protobuf.complex;
+
+message MapMessage {
+    int32 id = 1;
+    map<string, SubMessage> sub_messages = 2;
+}
+
+message SubMessage {
+    int32 sib_id = 1;
+    string text = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.github.michaladorno.protobuf.complex;
+
+message OneOfMessage {
+    int32 id = 1;
+    oneof storage {
+        string message = 2;
+        bool status = 3;
+    }
+}
